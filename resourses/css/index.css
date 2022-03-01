@@ -1,0 +1,173 @@
+* {
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.96;
+  text-align: center;
+}
+
+/* Header Section */
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid seashell;
+}
+
+header .logo.container {
+  display: inline-flex;
+  height: 100%;
+  position: absolute;
+  left: 10px;
+  align-items: center;
+}
+
+header .img {
+  height: 50px;
+}
+
+header .nav {
+  position: absolute;
+  right: 0%;
+  height: 100%;
+  width: 400px;
+  right: 10px;
+}
+
+header ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a:hover {
+  color: red;
+}
+
+/* Banner Section */
+
+.mission {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  margin-top: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.mission div {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mission h2 {
+  font-size: 24px;
+  width: 100%;
+}
+
+/* Featured Section  */
+
+.featured {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  margin-top: 60px;
+  height: 700px;
+}
+
+.featured h2 {
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.item h3 {
+  height: 30px;
+  position: relative;
+  margin: 10px auto;
+}
+
+.fcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 600px;
+  position: relative;
+}
+
+.item {
+  width: 300px;
+  height: 250px;
+}
+
+/* Location Section */
+
+.location {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.location h2 {
+  background-color: transparent;
+  position: relative;
+  font-size: 30px;
+  top: 50px;
+  margin-bottom: 15px;
+}
+
+.scontainer {
+  background-color: transparent;
+  position: relative;
+  margin-top: 75px;
+}
+
+.scontainer .a {
+  width: 300px;
+  height: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  opacity: 1;
+  justify-content: space-around;
+}
+
+/* Footer Section */
+.footer h2 {
+  font-size: 30px;
+  margin: 15px;
+}
+.footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.copy {
+  text-align: left;
+  margin: 20px;
+}
